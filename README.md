@@ -135,39 +135,3 @@ graph LR
     API <--> DB
     API <--> Cloud
 ```
-
-
-
-## Want to Clone this project? 
-
-### Prerequisites
-- Node.js (v18+)
-- MongoDB Atlas Account
-- Google Gemini API Key
-- Cloudinary Account (for resume/asset storage)
-
-### Installation
-
-1. **Clone the project**
-   ```bash
-   git clone https://github.com/akhilthirunalveli/MockMate.git
-   cd MockMate
-   ```
-
-2. **Backend Configuration**
-   ```bash
-   cd backend
-   npm install
-   # Create a .env file based on .env.example
-   npm run dev
-   ```
-
-3. **Frontend Configuration**
-   ```bash
-   cd ../frontend
-   npm install
-   # Create a .env file based on .env.example
-   npm run dev
-   ```
-
-<p align="center">Made by Akhil Thirunalveli</p>
